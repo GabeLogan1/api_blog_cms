@@ -10,6 +10,8 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
+gem 'active_model_serializers', '~> 0.10'
+
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 
