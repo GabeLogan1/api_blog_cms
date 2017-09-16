@@ -1,5 +1,5 @@
 ApiBlogCms::Engine.routes.draw do
-  	get 'welcome/index'
+  	get 'welcome' =>'welcome#index'
 
 	root 'welcome#index'
 end
