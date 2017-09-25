@@ -1,5 +1,8 @@
 ApiBlogCms::Engine.routes.draw do
-  	get 'welcome' =>'welcome#index'
-
-	root 'welcome#index'
+  get 'category/index'
+  get 'blog/index'
+  
+  get 'blog' =>'blog#index'
+  get 'category' =>'category#index'
+	#root 'welcome#index'
 end
