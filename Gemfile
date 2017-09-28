@@ -11,7 +11,9 @@ gemspec
 # your gem to rubygems.org.
 
 gem 'active_model_serializers', '~> 0.10'
+gem 'rails-html-sanitizer'
+
 
 # To use a debugger
-# gem 'byebug', group: [:development, :test]
+ gem 'byebug', group: [:development, :test]
 
