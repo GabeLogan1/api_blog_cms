@@ -4,5 +4,10 @@ ApiBlogCms::Engine.routes.draw do
   
   get 'blogs' =>'blog#index'
   get 'categories' =>'category#index'
-	#root 'welcome#index'
+
+
+get '/blog/:id', to: 'blog#show'
+
+
+#root 'welcome#index'
 end
