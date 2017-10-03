@@ -14,11 +14,9 @@ module ApiBlogCms
   
   def show
 
-   
     blog=CamaleonCms::Post.find(params[:id])
-    
-    
-    render json: blog, each_serializer: BlogSerializer, status: 200
+       
+    render json: blog, serializer: BlogSerializer, status: 200
      end
   
   end
