@@ -11,6 +11,7 @@ module ApiBlogCms
 
       render json: blog, each_serializer: BlogSerializer, status: 200
     end
+    
   
   def show
 
